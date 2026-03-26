@@ -1,0 +1,327 @@
+10/09
+
+console.log() 
+	- código para enviar um texto para a tela (console.log("Hello World!"))
+
+// ou /**/ 
+	- codigos para a criação de comentarios, sendo // comentarios em linha e /**/ comentarios em mais de uma linha
+
+let 
+	- código para a criação de uma variavel
+	- JS ja identifica automaticamente qual o estilo da variavel, assim, nao precisando expecificar 
+	- let a = 3: criando a variavel 'a' r acresentando a ela o valor '3'. Sendo aissim, 'a' é uma variavel de numero (Number)
+---------------------------
+11/09
+
+strig 
+	- uma variável que armazena texto ( let Texto = 'Hello World!')
+	- ela pode ser escrita entre aspas simples ou aspas dupla
+
+char
+	- Em JavaScript, char não é uma palavra-chave ou tipo de dado como em outras linguagens (como Java ou C++).  O termo "char" geralmente se refere a um caractere individual em uma string, ou seja, uma unidade de texto como uma letra (a), número (1) ou símbolo (%).
+
+boolean
+	- Em JavaScript, Boolean é um tipo de dado primitivo que representa um valor lógico com apenas duas possibilidades: true (verdadeiro) ou false (falso). 
+	- São blocos de construção para criar lógica nos programas que escrevemos
+---------------------------
+Convenções de nomenclatura 
+  - Em JavaScrip as variáveis são sensíveis com letras maiúsculas e minúsculas (myvariable) e (myVariable) são considerados diferentes 
+
+ - nomes de variáveis podem contém letras (a-z), (A-Z), números (0-9), sublinhados (_) e sinais de dólar ($)
+
+ - nomes de variáveis devem começar com letras, sublinhados ou sinal de dólar. não é permitido começar com números 
+
+ -certas palavras são reservadas para JavaScript, então não podemos usar elas como variáveis, como “let”, “const”, “function”, “if”, “else”, etc
+
+ - É uma prática usar camelCase para nomes de variáveis, onde cada palavra exceto a primeira começa com letra minúscula (myVariableName)
+
+
+Variáveis vazias
+   - variáveis vazias são variáveis que não possuem um valor atribuído, podendo ser atribuído ao decorrer do código. 
+(sabendo que irá usar a variável mais adiante no código mas não sabe qual valor atribuir a ela )
+
+- para atribuir a variável vazia utilizamos let + o valor da variavel sem atribuir valor. Ex: let myVariable;
+
+   - variáveis vazias são chamadas de não inicializadas
+
+   - quando tentamos acessar uma variável não inicializada ela terá um valor especial chamado “undefined”
+  
+   - podemos atribuir um valor a uma variável não inicializada posteriormente no código usando o operador de atribuição “=“
+
+
+Constante 
+   - const cria variáveis que nunca mudam ao decorrer do código (permanecem os mesmos após serem definidos)
+  
+   - use “const” assim como “let” para criar uma variável constante que não mudará seu valor. Ex: const pi = 3,14
+                 console.log(pi) //saida: 3,14
+
+   - se tentarmos alterar o valor causará um erro
+   pi=3,14259 //Erro: atribuição a variável constante 
+
+   -usamos “const” para valores que nunca devem mudar, como 
+   •constantes matemáticas (pi =3,14)
+   •configurações fixas (maxUsers = 100)
+------------------------------
+23/02
+
+Operadores Aritméticos
+	- Operadores Aritméticos são usados para realizar operações em valores
+	
+	- os operadores são: + (adição), - (subtração) , * (multiplicação), / (divisão)
+	
+	- exemplo: let a = 1
+	           let b = 4
+		   let c = a + b // c contém 5
+--------------------------------
+26/02
+
+Operador Módulo
+	-O operador módulo % informa o que sobra após dividir um número por outro.
+	result = dividend % divisor
+
+	-dividend: O número que está sendo dividido.
+	-divisor: O número que divide o dividendo.
+	-result: O resto da divisão.
+
+	-Por exemplo,
+	-result = 10 % 3
+	-Aqui, 10 é dividido por 3. 3 cabe em 10 três vezes, com um resto de 1. Então, result será 1.
+
+	-Geralmente, o módulo é usado para verificar se um número é par ou ímpar:
+	-Se um número é par, dividi-lo por 2 deixará um resto de 0.
+	-Se um número é ímpar, dividi-lo por 2 deixará um resto de 1.
+
+	-Quando o dividendo é menor que o divisor, ele não pode ser dividido, então o dividendo inteiro permanece.
+
+Atalhos Aritméticos
+	-O JavaScript criou um atalho legal para operações aritméticas de autoatribuição.
+
+	-Por exemplo, em vez de escrever:
+	let a = 5
+	a = a + 3 // a holds 8
+
+	-Podemos simplificá-lo escrevendo +=:
+	let a = 5
+	a += 3 // a holds 8
+
+	-O += está adicionando ao a ele mesmo o valor 3
+
+	-Esta operação é válida para todas as operações aritméticas:
+	Operador	Atalho
+	+		+=
+	-		-=
+	*		*=
+	/		/=
+	%		%=
+------------------------
+02/03
+
+Operadores de comparação
+	- Operadores de comparação são usados para comparar dois operandos.
+
+	- Às vezes, precisamos verificar se um operando é maior/menor/... que outro operando. A tabela a seguir mostra os operadores possíveis para comparação:
+
+Operador	Significado	Exemplo
+==		Igual		1 == 2 retorna false
+!=		Diferente	1 != 2 retorna true
+>		Maior que	1 > 2 retorna false
+<		Menor que	1 < 2 retorna true
+>=		Maior ou igual	1 >= 2 retorna false
+<=		Menor ou igual	1 <= 2 retorna true
+
+	- O operador de comparação retorna true se a comparação estiver correta ou false caso contrário.
+
+Por exemplo:
+
+let var1 = 13
+let var2 = 12
+let var3 = var1 != var2
+	- var3 conterá true porque var1 e var2 não são iguais
+
+	- Lembre-se do tipo boolean,  var3 é um booleano.
+------------------------------
+05/03
+
+Igualdade Estrita vs. Laxa
+
+
+
+	- Em JavaScript, existem dois tipos de operadores de igualdade: igualdade frouxa (==) e igualdade estrita (===).
+
+	- Igualdade frouxa (==) verifica se dois valores são iguais após realizar coerção de tipo. Isso significa que, se os operandos tiverem tipos diferentes, o JavaScript tentará convertê-los para um tipo comum antes de fazer a comparação.
+
+Por exemplo:
+
+	- let b = 5 == "5";   // É verdadeiro, porque a string "5" é convertida para o número 5 antes da comparação
+	- let b = 0 == false; // É verdadeiro, porque o booleano false é convertido para o número 0 antes da comparação
+	- let c = "" == false; // É verdadeiro, porque a string vazia é convertida para o número 0 antes da comparação
+
+ Igualdade estrita (===), por outro lado, verifica se dois valores são iguais sem realizar qualquer conversão de tipo. Se os operandos tiverem tipos diferentes, eles são considerados não iguais.
+Por exemplo:
+
+	- let b = 5 === "5";   // É falso, porque nenhuma conversão de tipo é realizada, e um número não é igual a uma string
+	- let b = 0 === false; // É falso, porque nenhuma conversão de tipo é realizada, e o número 0 não é igual ao booleano false
+
+Em geral, é recomendado usar igualdade estrita (===) na maioria dos casos para evitar resultados inesperados devido à coerção de tipo.
+Da mesma forma, também existem operadores de desigualdade frouxa (!=) e desigualdade estrita (!==) que funcionam de maneira semelhante, mas verificam desigualdade em vez de igualdade.
+Desigualdade frouxa (!=) verifica se dois valores não são iguais após realizar coerção de tipo, enquanto desigualdade estrita (!==) verifica se dois valores não são iguais sem realizar conversão de tipo.
+---------------------------
+09/03
+
+Operadores Lógicos Parte 1
+
+Operadores lógicos são usados para verificar combinações de comparações que retornam true ou false.
+
+Por exemplo, a seguinte declaração contém duas comparações: 
+
+5 é maior que 3 e menor que 6?
+
+Operador	Significado					Exemplo
+&&		E - true se todos os operandos forem true	a && b
+||		Ou - true se qualquer operando for true		a || b
+!		Não - true se o operando for false		!a
+ 
+
+Vamos ver alguns exemplos:
+
+5 é maior que 3, e 1 é igual a 1:
+
+let b1 = (5 > 3) && (1 == 1); // resulta em true
+Explicação: Todos os operandos são true, então b1 conterá true (&& resulta em true se ambos os operandos forem true) .
+
+ 
+
+5 não é igual a 4, ou 5 é igual a 2:
+
+let b2 = !(5 == 4) || (5 == 2); // resulta em true
+Explicação: O primeiro operando (5 != 4) é true, então b2 também é true (|| resulta em true se qualquer um dos operandos for true)
+
+ 
+
+1 não é igual a 1 ou false:
+
+let b3 = !(1 == 1) || false; // resulta em false
+Explicação: Todos os operandos são false, então b3 conterá false (|| operação).
+
+ 
+
+não (3 maior que 4):
+
+let b4 = !(3 > 4); // resulta em true
+Explicação: O operando é false, então b4 conterá true (! operação).
+
+ 
+
+não (5 maior que 10 ou 5 maior que 1):
+
+let b5 = !(5 > 10 || 5 > 1); // resulta em false
+Explicação: 5 > 10 || 5 > 1 é true (um dos operandos é true), então no total b5 é false (! operação).
+------------------
+16/03
+
+Operadores Lógicos Parte 2
+
+
+
+Operadores lógicos têm uma tabela especial chamada "Tabela verdade" que mostra o que a combinação de operadores lógicos retorna.
+
+Tabela verdade para o operador &&:
+
+a	b	a && b
+false	false	false
+false	true	false
+true	false	false
+true	true	true
+A única maneira de obter um true para o operador && é se ambos a e b forem true
+
+Tabela verdade para o operador ||:
+
+a	b	a || b
+false	false	false
+false	true	true
+true	false	true
+true	true	true
+Neste caso, para obter um resultado true, a ou b deve ser true.
+
+Tabela verdade para o operador !:
+
+a	!a
+false	true
+true	false
+Aqui o valor de a é invertido. Se a for false então !a é true
+
+---------------------
+
+18/03
+
+Ao trabalhar com expressões lógicas, às vezes precisamos simplificá-las ou rearranjá-las.
+
+! (não) na frente de duas condições unidas por && (e), você pode dividi-la em duas partes separadas. O && (e) se torna || (ou), e cada parte recebe seu próprio ! (não):
+
+!(A && B) é o mesmo que (!A) || (!B)
+
+Por exemplo:
+
+// Let's check if a number is NOT (between 1 and 10)
+let number = 15
+
+// These two expressions are equivalent:
+let result1 = !(number >= 1 && number <= 10)
+let result2 = !(number >= 1) || !(number <= 10)
+
+console.log(result1)  // True
+console.log(result2)  // True
+O oposto também é correto: !(A || B) é o mesmo que (!A) && (!B)
+
+Por exemplo:
+
+// Checking if a person is NOT (a student or employed)
+let is_student = false
+let is_employed = false
+// These two expressions are equivalent:
+let result1 = !(is_student || is_employed)
+let result2 = !is_student && !is_employed
+
+console.log(result1)  // True
+console.log(result2)  // True
+
+.
+.
+
+Type Coercion
+
+
+
+A coerção de tipo em JavaScript é a conversão automática de valores de um tipo de dados para outro. Isso pode acontecer de forma implícita em certas operações ou explicitamente quando você usa funções como String(), Number() ou Boolean().
+
+A coerção de tipo implícita frequentemente ocorre quando você usa o operador de igualdade frouxa == ou quando realiza operações entre tipos diferentes, como adicionar um número a uma string.
+
+Por exemplo:
+
+let result = 5 + "5";
+// Holds "55", because the number 5 is implicitly converted to the string "5" and then concatenated
+let result = true == 1;
+// Holds true, because the boolean true is implicitly converted to the number 1
+Você pode converter valores manualmente com: (Coerção de tipo explícita)
+
+String(value)
+Number(value)
+Boolean(value)
+Number("123") + 7; // 130
+Number(true);      // 1 
+⚠️ Importante: Truthiness e Boolean()
+Boolean() não interpreta o conteúdo da string como "true" ou "false".
+Em vez disso, segue as regras truthy/falsy do JavaScript:
+
+String vazia ("") → false
+Qualquer string não vazia → true
+Portanto:
+
+Boolean("false"); // true  ← non-empty string
+Boolean("");      // false 
+Isso é uma fonte comum de confusão.
+
+
+
+
+
