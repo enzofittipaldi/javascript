@@ -1,0 +1,10 @@
+Módulo A - Aula 04
+
+window.alert("")
+	- cria uma notificação na janela do navegador
+
+window.confirm("")
+	- cria uma notificação de confirmação na janela do navegador
+
+window.prompt("")
+	- cria uma notificação de escrita na janela do navegador
