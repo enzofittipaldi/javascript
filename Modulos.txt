@@ -1,0 +1,65 @@
+Módulo A - Aula 1
+
+JavaScript é uma tecnologia ClientSide 
+	- funciona melhor no lado do cliente ou em dispositivos (Pc, celular, tablet)
+	- tecnologia Front-End
+.
+aula 2
+
+JavaScript
+	- 1970 - Arpanet
+
+	- 1993 - World Wide Web (www)
+
+	- 1994 - Netscape
+
+	- 1995 - MOCA (LiveScript) / JavaScript
+
+	- 1997 - ecma (padronização do JavaScript)
+
+	- 2002 - mozilla (Firefox)
+	
+	- 2008 - Google Chrome
+
+	- 2009 - V8
+
+	- 2010 - node.js
+.
+ECMAScript
+	- 1997 - V1.0
+
+	- 1998 - V2.0
+
+	- 1999 - V3.0
+
+	- 2009 - ES5 
+
+	- 2015 - ES6
+
+	- 2016 - ES2016
+
+	- 2017 - ES2017
+
+	- 2018 - ES2018
+.
+Tecnologias
+	- jQuery
+	- Angular
+	- React
+	- Vue
+	- Electron
+	- Ionic
+	- Cordova
+.
+Gaming
+	- Phaser
+	- PixiJS
+	- Impact
+	- Melon.js
+	- Crafty.js
+.
+aula 3 
+	
+	
+	
+	
