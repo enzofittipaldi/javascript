@@ -1,10 +1,31 @@
 Módulo A - Aula 04
 
 window.alert("")
-	- cria uma notificação na janela do navegador
+	- cria uma notificação de  alerta na janela do navegador
 
 window.confirm("")
 	- cria uma notificação de confirmação na janela do navegador
 
 window.prompt("")
-	- cria uma notificação de escrita na janela do navegador
+	- cria uma notificação de pergunta na janela do navegador
+
+----------------
+
+Modulo B - Aula 01
+
+// - comentário de única linha
+
+/* */ - comentário de mais de uma linha
+
+= - sinal de 'recebe'
+
+null - nula
+
+var - cria uma variável
+
+string - variável de caracteres ou conjunto de números
+
+typeof - mostra qual tipo é aquela variavel
+
+
+

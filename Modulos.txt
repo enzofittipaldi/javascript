@@ -58,8 +58,53 @@ Gaming
 	- Melon.js
 	- Crafty.js
 .
-aula 3 
+--------------------
+
+Módulo B - Aula 01
+
+possui 3 formas de delimitar uma string
+	- ""
+	- '' 
+	- ``
+
+identificador
+	- nome de cada variável
+	- podem começar com letra, $ ou _
+	- não pode começar com numero
+	- é possível usar letras ou números
+	- é possível utilizar acentos e símbolos 
+	- não podem conter espaços
+	- não podem ser palavras reservadas ex(function, var, alert)
+
+dicas para identificadores
+	- Maiúsculas e minúsculas fazem diferença 
+	- Tente utilizar nomes coerentes para variáveis 
+	- Evite se tornar um 'programador alfabeto' ou um 'programador contador'
+
+number
+	- 5, 18, -12, 0.5, -15.9, 3.14, 8.0
+	- o java script não diferencia os números em si, são todos de um mesmo grupo
+
+string
+	- "Google"
+	- 'JavaScript'
+	- `Maria`
+	- uma string pode ser um conjunto de numero ex: CPF e telefone
+
+boolean
+	- true
+	- false
 	
+Data Types
+	- number
+		- Infinity
+		- NaN
+	- string
+	- boolean
+	- null
+	- undefined
+	- object
+		- Array
+	-function
 	
-	
-	
+quando definimos um valor a uma variável, esse valor não fica preso ao tipo, ex: var n1 = 1 (recebeu 1) n1 = 'nome' (n1 recebeu nome)
