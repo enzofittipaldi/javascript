@@ -8,6 +8,7 @@ window.confirm("")
 
 window.prompt("")
 	- cria uma notificação de pergunta na janela do navegador
+	- devolve uma string
 
 ----------------
 
@@ -25,7 +26,56 @@ var - cria uma variável
 
 string - variável de caracteres ou conjunto de números
 
-typeof - mostra qual tipo é aquela variavel
+typeof - mostra qual tipo é aquela variável
 
++ - sinal de concatenação (string + string) e soma (number + number)
+
+Converter  string > number
+	-Number.parseInt(n)
+		- converte um numero para um numero inteiro
+
+	- Number.parseFloat(n)
+		- converte um numero para um numero real
+
+	- number(n)	
+		- faz com que o JS decida se o numero vai ser inteiro ou real de acordo com o numero q ele receber
+
+Converter number > string
+	- String(n)
+		- gera uma string com o que estiver dentro do parênteses 
+		- É uma função global que converte qualquer valor para string.
+
+	- n.toString()
+		- converte um valor ja existente em string
+		- É um método do próprio objeto. Ou seja, você só consegue usar se a variável não for null ou undefined.
+
+
+${} - placeholder
+	- modo de interpolar uma variável em uma string
+
+Formatação de String
+	- n.length 
+		- mostra quantos caracteres a string tem
+
+	- n.toUpperCase() 
+		- deixa tudo em letra MAIUSCULA 
+
+	- n.toLowerCase() 
+		- deixa tudo em letra minúscula
+
+	- document.write() 
+		- escreve a mensagem na tela
+		- podemos uar tag HTML dentro dele
+
+Formatação de Números
+	- n.toFixed()
+		- coloca o numero de casas decimais de acordo com o valor do parênteses 
+	
+	- n.toFixed().replaced()
+		- troca uma coisa pela outra 
+		- n.toFixed().replaced('.', ',') troquei o ponto pela virgula em um numero decimal = 1455,5
+
+	-  n1.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
+		- comando para transformar o valor do number em R$ (real)
 
 
