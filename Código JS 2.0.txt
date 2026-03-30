@@ -33,21 +33,25 @@ typeof - mostra qual tipo é aquela variável
 Converter  string > number
 	-Number.parseInt(n)
 		- converte um numero para um numero inteiro
+		- *usado na hora de criar a variavel*
 
 	- Number.parseFloat(n)
 		- converte um numero para um numero real
-
+		- *usado na hora de criar a variavel*
 	- number(n)	
 		- faz com que o JS decida se o numero vai ser inteiro ou real de acordo com o numero q ele receber
+		- *usado na hora de criar a variável*
 
 Converter number > string
 	- String(n)
 		- gera uma string com o que estiver dentro do parênteses 
 		- É uma função global que converte qualquer valor para string.
+		-* usado na hora de criar a variavel*
 
 	- n.toString()
 		- converte um valor ja existente em string
 		- É um método do próprio objeto. Ou seja, você só consegue usar se a variável não for null ou undefined.
+		- *usado na hora de criar a variavel*
 
 
 ${} - placeholder
