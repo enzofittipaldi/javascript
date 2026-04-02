@@ -108,3 +108,41 @@ Data Types
 	-function
 	
 quando definimos um valor a uma variável, esse valor não fica preso ao tipo, ex: var n1 = 1 (recebeu 1) n1 = 'nome' (n1 recebeu nome)
+
+------------------------------------
+
+Módulo C - Aula 09
+
+Introdução ao DOM
+ 	- Document
+	  Object
+	  Model
+
+- Arvore DOM
+	- window (raiz)
+		- location (URL, Pagina atual, Pagina anterior etc)
+
+		- document
+			- html
+				- head
+					- meta
+					- title
+
+				- body
+					- h1
+					- p
+					- p
+						- strong
+					- div
+		
+		- history
+
+- Selecionando
+	- por Marca (tag)
+		- getEelemntsByTagName()
+
+	- por ID
+	- por Nome
+	- por Classe
+	- por Seletor (CSS)
+

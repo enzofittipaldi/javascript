@@ -214,4 +214,64 @@ OPERADORES PT2
 	- :
 	- teste ? true : false
 	- média >=  7.0 ? "Aprovado" : "Reprovado"
+------------------------------------
+
+Módulo C - Aula 09
+
+Introdução ao DOM
+ 	- Document
+	  Object
+	  Model
+
+- Arvore DOM
+	- window (raiz)
+		- location (URL, Pagina atual, Pagina anterior etc)
+
+		- document
+			- html
+				- head
+					- meta
+					- title
+
+				- body
+					- h1
+					- p
+					- p
+						- strong
+					- div
+		
+		- history
+
+- Selecionando
+	- por Marca (tag)
+		- getEelemntsByTagName()
+		- ex: document.getElementsByTagName('p')[0] 
+			- o JS esta selecionando o primeiro paragrafo. O paragrafo selecionado vai de acordo como numero em colchetes 
+
+		- innerText 
+			- escreve o texto da tag selecionada
+
+		- innerHTML 
+			- excreve o texto da tag selecionada do jeito que esta no HTML
+.
+	- por ID
+		- getElementById()
+			- Seleciona o elemento que estiver com a tag id
+.
+	- por Nome
+		- byElementsByName()
+			- Seleciona o elementos que estiverem com a tag name
+
+.
+	- por Classe
+		- byElementsByClassName()
+			- Seleciona o elementos que estiverem com a tag class
+
+.
+	- por Seletor (CSS)
+		- querySelector()
+			- Seleciona o elemento através da tag utilizada no  CSS ('div#msg')
+
+		- querySelectorAll()
+
 
