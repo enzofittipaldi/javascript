@@ -273,5 +273,40 @@ Introdução ao DOM
 			- Seleciona o elemento através da tag utilizada no  CSS ('div#msg')
 
 		- querySelectorAll()
+.
+Aula 10
+Eventos DOM
+	- eventos são coisas que podem acontecer com certa tag
 
+mouseenter
+	- quando o mouse entra na tag
 
+mousemove
+	- quando o mouse se move pela tag
+
+mousedown	
+	- quando clicamos e seguramos o mouse dentro da tag
+
+mouseup 
+	- quando soltamos o mouse dentro da tag
+
+click
+	- quando clicamos com o mouse dentro da tag
+
+mouseout
+	- quando o mouse sai da tag
+.
+Funções
+	- conjunto de linhas que vão ser executadas só quando o evento ocorrer
+
+bloco
+	- conjunto de linhas
+	- é delimitado pelos sinais de {}
+	- tem q ser nomeado como function
+	- nomes de funções costumam ser nomes de ações e ()
+	- podemos colocar parâmetros dentro dos ()
+
+addEventListener()
+	- O addEventListener é um método nativo do JavaScript que permite registrar um manipulador de eventos (event handler) em um elemento do DOM, executando uma função específica quando um determinado evento ocorre
+
+	
