@@ -320,6 +320,79 @@ Portanto:
 Boolean("false"); // true  ← non-empty string
 Boolean("");      // false 
 Isso é uma fonte comum de confusão.
+-------------------------
+
+Estrutura If
+
+
+
+Instruções if nos permitem executar código com condições.
+
+Por exemplo, vamos olhar para o seguinte código:
+
+let age = 20;
+let status = "Child";
+if (age > 18) {
+    status = "Adult";
+}
+age += 1;
+O código acima verifica se a variável age é maior que 18. Se for, ele definirá status para conter a string "Adult".
+
+No final, o código incrementará age em 1, independentemente de a idade ser maior que 18 ou não.
+
+ 
+
+Para usar uma instrução if, precisamos adicionar parênteses () que determinarão a condição, e tudo o que estiver dentro do if fica entre chaves {}:
+
+if (condition) {
+    code;
+    code;
+    code;
+}
+Se a condição for verdadeira, entraremos no bloco de código dentro do if (o código dentro das chaves)
+
+.
+.
+
+If - Else
+
+
+
+if nos permite executar um código específico se uma condição for atendida, mas e se quisermos executar outra coisa se a condição não for atendida?
+
+Para isso, temos a instrução else:
+
+let age = 15;
+let status = "None";
+if (age >= 18) {
+    status = "Adult";
+} else {
+    status = "Young";
+}
+No exemplo acima, age é menor que 18, o que significa que ele entra no código else e status conterá "Young".
+
+Podemos até torná-lo mais profundo usando a instrução else if:
+
+let age = 68;
+let status = "None";
+if (age < 18) {
+    status = "Young";
+} else if (age >= 18 && age <= 65) {
+    status = "Adult";
+} else {
+    status = "Old";
+}
+Aqui ele verifica se age é menor que 18, caso contrário, continuará para a próxima condição e verificará se age está entre 18 e 65. Se essa condição também não for atendida, ele definirá status como "Old".
+
+Podemos adicionar quantas instruções else if quisermos:
+
+if (condition1) {
+    code;
+} else if (condition2) {
+    code;
+} else if (condition3) {
+    code;
+    ...
 
 
 

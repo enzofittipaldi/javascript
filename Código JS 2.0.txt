@@ -308,5 +308,46 @@ bloco
 
 addEventListener()
 	- O addEventListener é um método nativo do JavaScript que permite registrar um manipulador de eventos (event handler) em um elemento do DOM, executando uma função específica quando um determinado evento ocorre
+.
+---------------------------
+Modulo D - Aula 11
+  CONDIÇÕES
+
+- Sequencias
+	- var n = 3  (1)
+	  n += 2  (2)
+	  window.alert(n)  (3)
+
+- Condições
+	- desvio condicional	
+		-  desvios condicionais em JavaScript são estruturas que tomam decisões com base em testes lógicos, permitindo executar blocos de código específicos quando uma condição é verdadeira ou falsa.
+
+	- if (condição) {
+
+		true
+
+          } else {
+
+		false
+
+	    }
+
+- tipos de condição
+	- if (condição) {  
+		true           (condição simples)
+	}
+.
+.
+	- if (condição) {
+
+		true
+ 				
+          } else {
+
+		false
+
+	    }
+
+
 
 	
