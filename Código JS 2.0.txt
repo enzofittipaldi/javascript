@@ -348,6 +348,16 @@ Modulo D - Aula 11
 
 	    }
 
+.
+. 
+aula 11
+
+console.log()
+	- faz o código ser enviado para o console
+
+quando usarmos 'innerText' ou 'innerHTML' utilizamos += para acrescentar mais um, pois se não, o código vai utilizar o ultimo inner que foi usado
+
+quando usarmos 'if' para fazer condições com 'string' usamos '==' ou '==='
 
 
 	
