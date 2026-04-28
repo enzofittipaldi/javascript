@@ -360,4 +360,53 @@ quando usarmos 'innerText' ou 'innerHTML' utilizamos += para acrescentar mais um
 quando usarmos 'if' para fazer condições com 'string' usamos '==' ou '==='
 
 
-	
+Aula 12
+CONDIÇÕES pt2
+
+Condições Aninhadas
+	- uma condição dentro da outra
+	- utilizamos if() dentro de outro if()
+	- ex: if (condição 1){
+		bloco 1
+	} else{
+		if (condição 2) }
+			bloco 2 
+		} else }
+		  bloco 3
+		}
+	}
+		
+
+	- utilizamos else if() para simplificar e criar mais opções de condições
+	- ex:  if (condição){
+		} else if (condição 2) {
+			} else {
+			}
+
+	- new Date()
+		- comando para utilizar a hora atual em que seu sistema esta rodando seu script
+		- ex: var agora = new Date()
+		      var hora = agora.getHours
+
+
+Condição Múltipla
+	- serve para valores fixos
+	- switch (expressão) {
+		case valor 1:
+
+			bloco 1
+			break
+		case valor 2:
+
+			bloco 2
+			break
+		case valor 3:
+
+			bloco 3
+			break
+		default:
+
+			bloco 4
+			break
+	}     
+	- comando break obrigatório do final de cada case, faz com que o comando pare e siga o fluxo do codigo
