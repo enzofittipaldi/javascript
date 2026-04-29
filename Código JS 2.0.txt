@@ -409,4 +409,9 @@ Condição Múltipla
 			bloco 4
 			break
 	}     
-	- comando break obrigatório do final de cada case, faz com que o comando pare e siga o fluxo do codigo
+	- comando break obrigatório do final de cada case, faz com que o comando pare e siga o fluxo do código
+.
+.
+aula 14
+onload()
+	- quando a pagina carregar, ela ira realizar a função do JS
