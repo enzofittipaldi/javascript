@@ -415,3 +415,11 @@ Condição Múltipla
 aula 14
 onload()
 	- quando a pagina carregar, ela ira realizar a função do JS
+
+.
+.
+aula 15
+setAttribute()
+	- adiciona um atributo para um elemento 
+	- ex: img.setAttribute('src', 'foto')
+		- o elemento 'src' recebeu o atributo 'foto'
