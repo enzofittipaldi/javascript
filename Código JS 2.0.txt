@@ -423,3 +423,23 @@ setAttribute()
 	- adiciona um atributo para um elemento 
 	- ex: img.setAttribute('src', 'foto')
 		- o elemento 'src' recebeu o atributo 'foto'
+-------------------------------
+Modulo E - aula 16
+
+Repetições em JS
+
+- Estruturas de controle 
+	- Sequencias 
+	- Condições 
+	- Repetições 
+		- while(condição)
+			- executa repetidamente um comando enquanto ele for verdadeiro 
+			- estrutura de repetição com teste logico no inicio
+
+		- do{
+			bloco1
+		    } while(condição)
+			- executa o comando e depois ele faz o teste de repetição
+			- estrutura de repetição com teste logico no final
+		
+
