@@ -441,5 +441,16 @@ Repetições em JS
 		    } while(condição)
 			- executa o comando e depois ele faz o teste de repetição
 			- estrutura de repetição com teste logico no final
+.
+.
+aula 17
+- Repetição com variável de controle
+	- for (inicio; teste; incr) {
+		
+	}
+
+	- for (var c=1; c<=10; c++ {
+	
+	}
 		
 
