@@ -452,5 +452,11 @@ aula 17
 	- for (var c=1; c<=10; c++ {
 	
 	}
+
+aula 19
+para por emoji no JS utilizamos:
+	- código do emoji U+1F603 
+	- \u{1F603}
+	- só funciona entre crases ``
 		
 
